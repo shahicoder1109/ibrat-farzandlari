@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang=uz>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>O'zbekiston - Ipak Yo'li Yuragi</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel=stylesheet>
+<link rel=stylesheet href=css/style.css>
+</head>
+<body>
+<div class=pattern-bg></div>
+<nav>
+<a href=# class=nav-logo>O'ZBEKISTON</a>
+<ul class=nav-links>
+<li><a href=#about>Meros</a></li>
+<li><a href=#stats>Ma'lumotlar</a></li>
+<li><a href=#contact>Bog'lanish</a></li>
+</ul>
+</nav>
+<section class=hero id=home>
+<svg class=star-deco viewBox="0 0 400 400" aria-hidden=true>
+<g stroke=#c8a84b stroke-width=1 fill=none>
+<polygon points="200,20 240,110 340,110 260,170 290,270 200,210 110,270 140,170 60,110 160,110"/>
+<circle cx=200 cy=200 r=150 />
+</g>
+</svg>
+<p class=hero-eyebrow>Sharq Gavhari</p>
+<h1 class=hero-title>O'ZBEKISTON<span>Ipak Yo'li Yuragi</span></h1>
+<marquee width="300" height="60"  direction="left" scrollamount="5">Samarqand, Buxoro, Xiva sizni kutmoqda</marquee>
+</section>
+<section id=about>
+<p class=section-label>Tarix</p>
+<h2 class=section-title>Buyuk Shaharlarimiz</h2>
+<ul class=custom-list>
+<li>Samarqand - Rim bilan tengdosh boqiylik.</li>
+<li>Buxoro - Islom olamining ma'rifat markazi.</li>
+<li>Xiva - Tarixiy Ichan Qal'a durdonasi.</li>
+<li>Toshkent - Zamonaviylik va an'analar tutashgan nuqta.</li>
+</ul>
+</section>
+<section id=stats>
+<p class=section-label>Statistika</p>
+<h2 class=section-title>Turizm Ma'lumotnomasi</h2>
+<div class=table-wrap>
+<table class=styled-table>
+<thead>
+<tr>
+<th>Yo'nalish</th>
+<th>Asosiy Obida</th>
+<th>Viloyat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ziyorat</td>
+<td>Imom al-Buxoriy</td>
+<td>Samarqand</td>
+</tr>
+<tr>
+<td>Qadimiyat</td>
+<td>Kalyon Minorasi</td>
+<td>Buxoro</td>
+</tr>
+<tr>
+<td>Arxitektura</td>
+<td>Ichan Qal'a</td>
+<td>Xorazm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=media-container>
+<div class=media-card>
+<h4 class=media-title>Surat</h4>
+<div class=media-thumb>
+<img src=img/samarkanda.jpg alt="Registon maydoni" class=responsive-img loading=lazy>
+</div>
+</div>
+<div class=media-card>
+<h4 class=media-title>Video Sayohat</h4>
+<div class=video-wrapper>
+<iframe src="https://www.youtube.com/embed/vQVwkyn3-F8?si=riE1mTyM_amLfQfs" title="YouTube video player" loading=lazy allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<p class=more-info>
+Ko'proq ma'lumot: <a href=https://uzbekistan.travel target=_blank rel="noopener noreferrer" class=styled-link>Uzbekistan Travel</a>
+</p>
+</section>
+<section id=contact>
+<p class=section-label>Murojaat</p>
+<h2 class=section-title>Sayohatni Rejalashtiring</h2>
+<form class=contact-form method="POST" action="#" novalidate>
+<input class=contact-input name=name aria-label=Ismingiz placeholder=Ismingiz required>
+<input type=email class=contact-input name=email aria-label=Emailingiz placeholder=Emailingiz required>
+<textarea class=contact-textarea name=message aria-label=Xabaringiz rows=5 placeholder="Sayohat haqida savollaringiz..." required></textarea>
+<button type=submit class=contact-btn>XABARNI YUBORISH</button>
+</form>
+</section>
+<footer>
+	<p>Created by CoreX</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
